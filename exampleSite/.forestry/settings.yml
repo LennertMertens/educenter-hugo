@@ -6,8 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Onze school
-- type: heading
-  label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
@@ -15,8 +13,6 @@ sections:
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Author
 - type: directory
   path: exampleSite/content/english/author
   label: Author (en)
@@ -24,8 +20,6 @@ sections:
   match: "**/*"
   templates:
   - author
-- type: heading
-  label: Course
 - type: directory
   path: exampleSite/content/english/course
   label: Course (en)
@@ -33,8 +27,6 @@ sections:
   match: "**/*"
   templates:
   - course
-- type: heading
-  label: Notice
 - type: directory
   path: exampleSite/content/english/notice
   label: Notice (en)
@@ -42,8 +34,6 @@ sections:
   match: "**/*"
   templates:
   - notice
-- type: heading
-  label: Teacher
 - type: directory
   path: exampleSite/content/english/teacher
   label: Teacher (en)
