@@ -5,6 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Onze school
+- type: heading
   label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
@@ -54,13 +56,6 @@ sections:
 - type: directory
   path: exampleSite/content/english/event
   label: Event (en)
-  create: all
-  match: "**/*"
-  templates:
-  - event
-- type: directory
-  path: exampleSite/content/french/event
-  label: Event (fr)
   create: all
   match: "**/*"
   templates:
